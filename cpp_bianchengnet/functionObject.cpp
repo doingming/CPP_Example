@@ -9,7 +9,7 @@
 
 
 // 仿函数例子一
-// 单个操作数
+// 单个操作数 unary function object
 class func22
 {
 public:
@@ -21,7 +21,7 @@ public:
 
 
 // 仿函数例子二
-// 两个操作数
+// 两个操作数 binary function object
 struct MyPlus{
     int operator()(const int &a , const int &b) const{
         return a+b;
